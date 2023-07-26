@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Poppins");
+
+h1 {
+  font-family: "Indie Flower";
+  color: #42bcf5;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins";
+}
+
+input {
+  font-size: 14px;
+  padding: 10px;
+  width: 150px;
+  font-family: "Poppins";
+}
+
+textarea {
+  padding: 10px;
+  width: 350px;
+  height: 90px;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+#color-picker {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+span {
+  color: #ed2d2d;
+  font-weight: bold;
+}
+
+button {
+  background-color: #cfabff;
+  border: 2px solid #6f03fc;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: "Poppins";
+}
+
+.likeButton {
+	background-color:transparent;
+	border-radius:11px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#18ab29;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 8px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.likeButton:hover {
+	background-color:transparent;
+}
+.likeButton:active {
+	position:relative;
+	top:1px;
+}
+
+strong {
+  color: #6f03fc;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: left;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>p5.js with Sockets</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+  </head>
+  <body>
+    <h1>Skribbles! 🎨</h1>
+
+    <div class="container">
+      <div class="column" id="players">
+        <h3>Players</h3>
+      </div>
+      <div id="sketch-holder" class="column">
+      </div>
+      <div class="column">
+        <p>Enter your guess:</p>
+        <input type="text" id="guess"></input>
+      </div>
+    </div>
+
+    <div id="game-info">
+      <button onclick="startGame()">Start Game!</button>
+    </div>
+
+    
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
